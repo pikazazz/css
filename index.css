@@ -1,95 +1,117 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+</style>html body *,
+a,
+li,
+p,
+span {
+    font-family: "Prompt", sans-serif;
+}
 
-html body *, a,li,p,span{
-   font-family: "Prompt", sans-serif;
+.astroid-content {
+    padding: 0px !important;
 }
-.astroid-content{
-    padding:0px !important;
-}
-.justify-social-top-menu-left ul li{
+
+.justify-social-top-menu-left ul li {
     float: left;
     padding: 0px 10px;
 }
+
 .justify-social-top-menu-right ul li {
     float: right;
     padding: 0px 10px;
 }
-.justify-social-top-menu-left div.moduletable{
+
+.justify-social-top-menu-left div.moduletable {
     text-align: left;
     width: 100%;
 }
-.justify-social-top-menu-right div.moduletable{ 
+
+.justify-social-top-menu-right div.moduletable {
     text-align: right;
     width: 100%;
 }
+
 /* .justify-social-top-menu-right ul li{
     float: right;
     padding: 0px 10px;
 } */
-#astroid-sticky-header{
-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
--webkit-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
--moz-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+#astroid-sticky-header {
+    box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
+    -webkit-box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
+    -moz-box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
 }
-.astroid-header-section{
-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
--webkit-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
--moz-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+
+.astroid-header-section {
+    box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
+    -webkit-box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
+    -moz-box-shadow: -1px 7px 11px 0px rgba(22, 50, 133, 0.24);
 }
 
 /*css SPPB5XXXX*/
-div.news_activity_01 div.sppb-addon-content div div{
-  float: left;
-  padding: 5px !important;
+div.news_activity_01 div.sppb-addon-content div div {
+    float: left;
+    padding: 5px !important;
 }
-div.sppb-row-container{
-  padding: 0px !important;
+
+div.sppb-row-container {
+    padding: 0px !important;
 }
-.footer_bg_style_no01{
-  background-color: #004e98 !important;
-  margin: 0px 0px 0px 0px !important;
+
+.footer_bg_style_no01 {
+    background-color: #004e98 !important;
+    margin: 0px 0px 0px 0px !important;
 }
-box_map{
-  margin-right: 25px!important;
+
+box_map {
+    margin-right: 25px !important;
 }
-box_address{
-  margin-left: 25px !important;
+
+box_address {
+    margin-left: 25px !important;
 }
+
 /* div.sppb-row{
   flex-wrap: nowrap !important;
 } */
-.sppb-addon-articles h3 a{
-  font-size: .7em;
-  line-height: initial;
+.sppb-addon-articles h3 a {
+    font-size: .7em;
+    line-height: initial;
 }
-.astroid-framework h1, .astroid-framework .h1{
-  font-size: 1.2em !important;
-  text-align: left !important;
-  margin-top: 30px !important
+
+.astroid-framework h1,
+.astroid-framework .h1 {
+    font-size: 1.2em !important;
+    text-align: left !important;
+    margin-top: 30px !important
 }
-#news_activity_list .uk-child-width-1-0>div{
-  width: 100% !important;
+
+#news_activity_list .uk-child-width-1-0>div {
+    width: 100% !important;
 }
-#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap{
-  float: left;
-  width: 180px;
-  height: auto;
+
+#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap {
+    float: left;
+    width: 180px;
+    height: auto;
 }
-#news_activity_list img.sppb-img-responsive{
-  border-radius: 20px;
+
+#news_activity_list img.sppb-img-responsive {
+    border-radius: 20px;
 }
-#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap .sppb-article-info-wrap{
-  float: left;
+
+#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap .sppb-article-info-wrap {
+    float: left;
 }
-#news_activity_list .uk-card-body{
-  padding: 10px 50px !important;
+
+#news_activity_list .uk-card-body {
+    padding: 10px 50px !important;
 }
- .klatest-subject a{
-  font-size: 1.0em !important;
+
+.klatest-subject a {
+    font-size: 1.0em !important;
 }
+
 /* #news_activity_list a.uk-card-media-top{
   float: left;
 }
@@ -103,101 +125,105 @@ box_address{
    แกะจาก clone สปสช. เขต 13 กรุงเทพมหานคร
    ============================================= */
 
-/* --- Section BG --- */
-.sppb-section.orgEvent {
-  background-color: rgba(0, 78, 152, 0.05);
-  padding: 80px 0;
+/* --- Section BG (overrides SP Page Builder inline) --- */
+.sp-page-builder .page-content #orgEvent.sppb-section.orgEvent,
+#orgEvent.sppb-section.orgEvent {
+    background-color: rgba(0, 78, 152, 0.05) !important;
+    padding: 80px 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
 }
 
 /* --- Article card container --- */
-.sppb-section.orgEvent .sppb-addon-articles .sppb-addon-content > div > div {
-  margin-bottom: 24px;
+.sppb-section.orgEvent .sppb-addon-articles .sppb-addon-content>div>div {
+    margin-bottom: 24px;
 }
 
 /* --- Individual card --- */
 .sppb-section.orgEvent .sppb-addon-article {
-  background: #ffffff;
-  border: 1px solid rgba(0, 78, 152, 0.10);
-  border-radius: 12px;
-  overflow: hidden;
-  transition: box-shadow 0.25s;
-  height: 100%;
+    background: #ffffff;
+    border: 1px solid rgba(0, 78, 152, 0.10);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.25s;
+    height: 100%;
 }
 
 .sppb-section.orgEvent .sppb-addon-article:hover {
-  box-shadow: 0 4px 20px rgba(0, 78, 152, 0.12);
+    box-shadow: 0 4px 20px rgba(0, 78, 152, 0.12);
 }
 
 /* --- Image --- */
 .sppb-section.orgEvent .sppb-article-img-wrap {
-  display: block;
-  overflow: hidden;
+    display: block;
+    overflow: hidden;
 }
 
 .sppb-section.orgEvent .sppb-article-img-wrap img {
-  width: 100%;
-  height: 176px;
-  object-fit: cover;
-  transition: transform 0.3s;
-  border-radius: 0 !important;
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 0 !important;
 }
 
 .sppb-section.orgEvent .sppb-addon-article:hover .sppb-article-img-wrap img {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 /* --- Content --- */
 .sppb-section.orgEvent .sppb-article-info-wrap .uk-card-body {
-  padding: 16px 20px 20px !important;
+    padding: 16px 20px 20px !important;
 }
 
 /* --- Title --- */
 .sppb-section.orgEvent .sppb-article-info-wrap .ui-title {
-  margin: 0 0 8px;
+    margin: 0 0 8px;
 }
 
 .sppb-section.orgEvent .sppb-article-info-wrap .ui-title a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #004e98;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #004e98;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .sppb-section.orgEvent .sppb-article-info-wrap .ui-title a:hover {
-  color: #3a6ea5;
-  text-decoration: underline;
+    color: #3a6ea5;
+    text-decoration: underline;
 }
 
 /* --- Meta --- */
 .sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta {
-  font-size: 14px;
-  color: #6b7280;
-  margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
 }
 
 .sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-date {
-  color: #6b7280;
+    color: #6b7280;
 }
 
 .sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-category a {
-  color: #3a6ea5;
-  font-weight: 500;
-  text-decoration: none;
+    color: #3a6ea5;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-category a:hover {
-  color: #004e98;
-  text-decoration: underline;
+    color: #004e98;
+    text-decoration: underline;
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .sppb-section.orgEvent {
-    padding: 40px 0;
-  }
+    .sppb-section.orgEvent {
+        padding: 40px 0;
+    }
 }
