@@ -1,213 +1,203 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+
+html body *, a,li,p,span{
+   font-family: "Prompt", sans-serif;
+}
+.astroid-content{
+    padding:0px !important;
+}
+.justify-social-top-menu-left ul li{
+    float: left;
+    padding: 0px 10px;
+}
+.justify-social-top-menu-right ul li {
+    float: right;
+    padding: 0px 10px;
+}
+.justify-social-top-menu-left div.moduletable{
+    text-align: left;
+    width: 100%;
+}
+.justify-social-top-menu-right div.moduletable{ 
+    text-align: right;
+    width: 100%;
+}
+/* .justify-social-top-menu-right ul li{
+    float: right;
+    padding: 0px 10px;
+} */
+#astroid-sticky-header{
+box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+-webkit-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+-moz-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+}
+.astroid-header-section{
+box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+-webkit-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+-moz-box-shadow: -1px 7px 11px 0px rgba(22,50,133,0.24);
+}
+
+/*css SPPB5XXXX*/
+div.news_activity_01 div.sppb-addon-content div div{
+  float: left;
+  padding: 5px !important;
+}
+div.sppb-row-container{
+  padding: 0px !important;
+}
+.footer_bg_style_no01{
+  background-color: #004e98 !important;
+  margin: 0px 0px 0px 0px !important;
+}
+box_map{
+  margin-right: 25px!important;
+}
+box_address{
+  margin-left: 25px !important;
+}
+/* div.sppb-row{
+  flex-wrap: nowrap !important;
+} */
+.sppb-addon-articles h3 a{
+  font-size: .7em;
+  line-height: initial;
+}
+.astroid-framework h1, .astroid-framework .h1{
+  font-size: 1.2em !important;
+  text-align: left !important;
+  margin-top: 30px !important
+}
+#news_activity_list .uk-child-width-1-0>div{
+  width: 100% !important;
+}
+#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap{
+  float: left;
+  width: 180px;
+  height: auto;
+}
+#news_activity_list img.sppb-img-responsive{
+  border-radius: 20px;
+}
+#news_activity_list .uk-child-width-1-0>div .sppb-article-img-wrap .sppb-article-info-wrap{
+  float: left;
+}
+#news_activity_list .uk-card-body{
+  padding: 10px 50px !important;
+}
+ .klatest-subject a{
+  font-size: 1.0em !important;
+}
+/* #news_activity_list a.uk-card-media-top{
+  float: left;
+}
+#news_activity_list .sppb-article-info-wrap{
+  float: left;
+} */
+
 /* =============================================
    กิจกรรมองค์กร (orgEvent) - SP Page Builder
+   สำหรับ UI Articles addon
    แกะจาก clone สปสช. เขต 13 กรุงเทพมหานคร
    ============================================= */
 
-/* --- Section container --- */
+/* --- Section BG --- */
 .sppb-section.orgEvent {
   background-color: rgba(0, 78, 152, 0.05);
   padding: 80px 0;
 }
 
-/* --- Activity title + "ดูทั้งหมด" row --- */
-.orgEvent-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* --- Article card container --- */
+.sppb-section.orgEvent .sppb-addon-articles .sppb-addon-content > div > div {
   margin-bottom: 24px;
 }
 
-.orgEvent-header h3 {
-  font-size: 20px;
-  font-weight: 500;
-  color: #004e98;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #fdc921;
-  margin: 0;
-}
-
-.orgEvent-header .orgEvent-all {
-  font-size: 16px;
-  font-weight: 500;
-  color: #3a6ea5;
-  text-decoration: none;
-  flex-shrink: 0;
-  transition: color 0.15s;
-}
-
-.orgEvent-header .orgEvent-all:hover {
-  color: #004e98;
-}
-
-/* --- Activity list container --- */
-.orgEvent-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-/* --- Activity item card --- */
-.orgEvent-item {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
+/* --- Individual card --- */
+.sppb-section.orgEvent .sppb-addon-article {
+  background: #ffffff;
   border: 1px solid rgba(0, 78, 152, 0.10);
   border-radius: 12px;
-  background-color: #ffffff;
-  cursor: pointer;
-  transition: box-shadow 0.2s;
-}
-
-.orgEvent-item:hover {
-  box-shadow: 0 4px 16px rgba(0, 78, 152, 0.10);
-}
-
-/* --- Activity item image --- */
-.orgEvent-item .orgEvent-img {
-  width: 140px;
-  min-width: 140px;
   overflow: hidden;
-  border-radius: 8px;
-  flex-shrink: 0;
+  transition: box-shadow 0.25s;
+  height: 100%;
 }
 
-.orgEvent-item .orgEvent-img img {
-  width: 100%;
-  height: 96px;
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-
-.orgEvent-item:hover .orgEvent-img img {
-  transform: scale(1.05);
-}
-
-/* --- Activity item content --- */
-.orgEvent-item .orgEvent-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  flex: 1;
-  min-width: 0;
-}
-
-.orgEvent-item .orgEvent-date {
-  font-size: 16px;
-  color: #6b7280;
-}
-
-.orgEvent-item .orgEvent-title {
-  font-size: 16px;
-  font-weight: 500;
-  color: #004e98;
-  line-height: 1.3;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.orgEvent-item .orgEvent-title a {
-  color: #004e98;
-  text-decoration: none;
-}
-
-.orgEvent-item .orgEvent-title a:hover {
-  text-decoration: underline;
-}
-
-.orgEvent-item .orgEvent-excerpt {
-  font-size: 16px;
-  color: #6b7280;
-  line-height: 1.625;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.orgEvent-item .orgEvent-readmore {
-  font-size: 16px;
-  font-weight: 500;
-  color: #3a6ea5;
-  text-decoration: none;
-  width: fit-content;
-  margin-top: 4px;
-  transition: color 0.15s;
-}
-
-.orgEvent-item .orgEvent-readmore:hover {
-  color: #004e98;
-}
-
-/* --- News section (ซ้าย) ใน layout เดียวกัน --- */
-.orgEvent-news-item {
-  display: block;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 78, 152, 0.10);
-  border-radius: 12px;
-  padding: 24px;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.2s;
-  margin-bottom: 16px;
-}
-
-.orgEvent-news-item:hover {
+.sppb-section.orgEvent .sppb-addon-article:hover {
   box-shadow: 0 4px 20px rgba(0, 78, 152, 0.12);
 }
 
-.orgEvent-news-item .orgEvent-news-img {
+/* --- Image --- */
+.sppb-section.orgEvent .sppb-article-img-wrap {
+  display: block;
+  overflow: hidden;
+}
+
+.sppb-section.orgEvent .sppb-article-img-wrap img {
   width: 100%;
   height: 176px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 12px;
+  transition: transform 0.3s;
+  border-radius: 0 !important;
 }
 
-.orgEvent-news-item .orgEvent-news-date {
-  font-size: 16px;
-  color: #6b7280;
+.sppb-section.orgEvent .sppb-addon-article:hover .sppb-article-img-wrap img {
+  transform: scale(1.05);
 }
 
-.orgEvent-news-item .orgEvent-news-title {
+/* --- Content --- */
+.sppb-section.orgEvent .sppb-article-info-wrap .uk-card-body {
+  padding: 16px 20px 20px !important;
+}
+
+/* --- Title --- */
+.sppb-section.orgEvent .sppb-article-info-wrap .ui-title {
+  margin: 0 0 8px;
+}
+
+.sppb-section.orgEvent .sppb-article-info-wrap .ui-title a {
   font-size: 16px;
   font-weight: 500;
   color: #004e98;
-  line-height: 1.3;
-  margin: 4px 0;
+  line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-decoration: none;
 }
 
-.orgEvent-news-item .orgEvent-news-excerpt {
-  font-size: 16px;
+.sppb-section.orgEvent .sppb-article-info-wrap .ui-title a:hover {
+  color: #3a6ea5;
+  text-decoration: underline;
+}
+
+/* --- Meta --- */
+.sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta {
+  font-size: 14px;
   color: #6b7280;
-  line-height: 1.625;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  margin: 0;
+}
+
+.sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-date {
+  color: #6b7280;
+}
+
+.sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-category a {
+  color: #3a6ea5;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sppb-section.orgEvent .sppb-article-info-wrap .uk-article-meta .sppb-meta-category a:hover {
+  color: #004e98;
+  text-decoration: underline;
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .sppb-section.orgEvent {
     padding: 40px 0;
-  }
-
-  .orgEvent-item {
-    flex-direction: column;
-  }
-
-  .orgEvent-item .orgEvent-img {
-    width: 100%;
-    min-width: auto;
-  }
-
-  .orgEvent-item .orgEvent-img img {
-    height: 200px;
   }
 }
